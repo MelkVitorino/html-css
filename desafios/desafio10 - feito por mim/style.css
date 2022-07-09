@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+/*CONFIG GERAL*/
+body{
+    margin: 0px;
+    margin-top: -33px;
+    background-color: #84E1AD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*CABEÇALHO */
+header{
+    color: white;
+    background-image: linear-gradient(#3CD781, #195A36);
+    margin: 0px;
+}
+
+header > h1{
+    text-transform: uppercase ;
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+}
+
+header > p{
+    text-align: center;
+}
+
+/*MENU DE NAVEGAÇÃO*/
+nav > ul > li{
+    display: inline-block;
+}
+
+nav > ul > li{
+    padding: 10px;
+    margin-left: -15px;
+}
+
+nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+nav > ul > li > a:hover{
+    background-color: aquamarine;
+    text-transform: uppercase;
+    color: black;
+}
+
+/*CORPO DO MEU SITE*/
+main{
+    width: 900px;
+    margin: auto;
+    margin-top: -32px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.267);
+}
+
+.artigo-um > h1{
+    font-family: Android;
+    padding: 15px;
+    color: #3B7354;
+    font-size: 2em;
+}
+
+.artigo-um > p{
+    text-indent: 15px; /* COLOCA UM ESPAÇO NO COMEÇO DO TEXTO*/
+    text-align: justify;
+    padding: 10px;
+    margin-top: -35px;
+}
+
+.artigo-um > p > strong{
+    color: #195A36;
+}
+
+.primeira-versao > h2{
+    font-family: Android;
+    padding: 5px;
+    text-indent: 10px;
+    color: #3B7354;
+    font-size: 2em;
+    margin-top: -15px;
+    background-image: linear-gradient( to left, #81B297, white);
+    width: 400px;
+}
+
+.primeira-versao > p{
+    text-indent: 15px; /* COLOCA UM ESPAÇO NO COMEÇO DO TEXTO*/
+    text-align: justify;
+    padding: 10px;
+    margin-top: -35px;
+}
+
+.primeira-versao > p > strong > a{
+    color: #195A36;
+    text-decoration: none;
+}
+
+.primeira-versao > img{
+    padding: 30px;
+    margin-left: 40px;
+}
+.primeira-versao > figure > img{
+    padding: 15px;
+}
+
+.novo-mascote > h2{
+    font-family: Android;
+    padding: 5px;
+    text-indent: 10px;
+    color: #3B7354;
+    font-size: 2em;
+    margin-top: -15px;
+    background-image: linear-gradient( to left, #81B297, white);
+    width: 500px;
+}
+
+.novo-mascote > p{
+    text-indent: 15px; /* COLOCA UM ESPAÇO NO COMEÇO DO TEXTO*/
+    text-align: justify;
+    padding: 10px;
+    margin-top: -15px;
+}
+
+.irina-blok{
+    padding: 15px;
+    margin-left: 40px;
+}
+
+.novo-mascote > p > strong > a{
+    color: #195A36;
+    text-decoration: none;
+
+}
+
+.bugdroid{
+    padding: 10px;
+    margin-left: 250px;
+}
+
+.secao-video{
+    background-color: #195A36;
+}
+.secao-video > article{
+    padding: 15px;
+    margin-left: 150px;
+}
+
+.ultima-secao{
+    background-color: white;
+}
+
+.ultima-secao > article{
+    background-color: #84E1AD;
+    margin: 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.ultima-secao > article > aside > h3{
+    background-color: #178a4a;
+    border-radius: 20px 20px 0px 0px ;
+    padding: 5px;
+    color: white;
+    text-indent: 5px;
+}
+
+.ultima-secao > article > aside > p{
+    text-indent: 30px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.ultima-secao > article > aside > ul{
+    list-style: none;
+}
+.p-unico{
+    background-color: white;
+    padding: 20px 0px;
+}
+
+footer{
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    margin-bottom: -20px;
+}

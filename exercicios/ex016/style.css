@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #0FC2C0, #0CABA8);
+}
+main{
+    background-color: white;
+    width: 600px; /* LARGURA*/
+    padding: 10px; /*ACOLCHOAMENTO - DA UM ESPAÇA DENTRO DO CONTEUDO*/
+    margin: auto;/*MARGEM*/
+    border-radius: 10px; /* RAIO DA BORDA - DEIXA REDONDO AS PONTAS*/
+    box-shadow: 5px 5px 15px rgba(2, 53, 53, 0.466); /* SOMBRA DA CAUXA - FAZ SOMBRA*/
+}
+h1{
+    color: #023535;
+    text-align: center;/*ALINHAMENTO DO TEXTO*/
+    text-shadow: 2px 2px 0px rgba(2, 53, 53, 0.466);/* SOMBRA DO TEXTO*/
+}
+h2{
+    color: #015958;
+}
+p{
+    text-align: justify;
+    color: #008F8C;
+}
